@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <main>
+        <h1>Suport</h1>
+
+        <section id="termo">
+            <div><img src="icons/local_police_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+               <p>Terms & Conditions</p> 
+            </div>
+            <img src="icons/arrow_forward_ios_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+        </section>
+        <section id="privace">
+            <div><img src="icons/description_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                <p>Privacy Policy</p>
+            </div>
+            <img src="icons/arrow_forward_ios_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+        </section>
+    </main>
+
+    <script>
+        const termo = document.querySelector('#termo')
+        termo.onclick=()=>{
+            location.href="termos.html"
+        }
+
+        const privace = document.querySelector('#privace')
+        privace.onclick=()=>{
+            location.href="privace.html"
+        }
+    </script>
+    
+</body>
+</html>
